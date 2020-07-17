@@ -1,0 +1,4 @@
+<div>  
+  <label for="idChk">{{displayName}}</label>
+  <input #chk id="idChk" type="checkbox" [checked]="isChecked()" (change)="setChecked(chk.checked)"/>  
+</div>

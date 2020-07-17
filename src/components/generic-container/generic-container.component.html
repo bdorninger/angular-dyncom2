@@ -1,0 +1,11 @@
+<p>
+generic-container works with {{address}}!
+</p>
+<inp-field #addr displayName="static"></inp-field>
+<button (click)="createDynContent(addr.text)">Go!</button>
+<p><small>Start of dyn section</small></p>
+<ng-template #dynSection>
+<!-- dyn comps go here -->
+</ng-template>
+<p><small>End of dyn section</small></p>
+<cbox displayName="static"></cbox>
