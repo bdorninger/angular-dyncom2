@@ -28,4 +28,8 @@ export class CBoxComponent implements OnInit {
   ngOnInit() {
   }
 
+  ngOnDestroy() {
+    console.log(`destroy: cbox ${this.displayName}`)
+  }
+
 }
